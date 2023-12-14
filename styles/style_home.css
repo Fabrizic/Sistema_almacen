@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+#icono_marca {
+    text-decoration: none;
+    color: #333;
+}
+
+#icono_marca i {
+    margin-right: 5px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: justify;
+    color: #666;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.6;
+    margin-bottom: 5%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+#boton_salida {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#boton_salida:hover {
+    background-color: #c82333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid #000;
+    background-color: #ff9500;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 150px; 
+}
+
+.box i {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 6em;
+}
+
+.contacto {
+    margin-top: 5%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}   
